@@ -1,0 +1,23 @@
+256
+one 
+two 
+three 
+
+
+cat 
+dog
+	#include <stdio.h>
+		#include <conio.h>
+		 main(){
+		int c =4;
+		int d = 8;
+		int e;
+		 
+		e=c;
+		c=d;
+		d=e;
+
+		printf("d= %d" , c);
+		printf("\nc= %d" , d);
+		getch();
+		}
